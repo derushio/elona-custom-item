@@ -103,7 +103,7 @@ fixenc8. "0,0"
 drinkable. "0"
 // 飲んだときに発動するスキル・効果 (*5)
 drinkefid. "0"
-// 発動効果量
+// 発動強度
 drinkefp. "0"
 
 // 特に必要ない場合は`nodescription`と記述
