@@ -7,7 +7,9 @@
     * [ステータス](pages/カスタムアイテム/ステータス.md)
     * [スキル](pages/カスタムアイテム/スキル.md)
     * [エフェクト](pages/カスタムアイテム/エフェクト.md)
-    * [例集](pages/カスタムアイテム/例集.md)
+    * 資料
+        * [oomSEST独自仕様](pages/カスタムアイテム/資料/oomSEST独自仕様.md)
+        * [例集](pages/カスタムアイテム/資料/例集.md)
 * [カスタムNPC](pages/カスタムNPC/index.md)
 * [カスタムゴッド](pages/カスタムゴッド/index.md)
 * [カスタムテキスト](pages/カスタムテキスト/index.md)
