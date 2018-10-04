@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [諸注意](README.md)
 * [カスタムアイテム](pages/カスタムアイテム/index.md)
     * [テンプレート](pages/カスタムアイテム/テンプレート.md)
     * [アイテムカテゴリ](pages/カスタムアイテム/アイテムカテゴリ.md)
