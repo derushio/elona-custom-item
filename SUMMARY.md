@@ -8,4 +8,6 @@
     * [スキル](pages/カスタムアイテム/スキル.md)
     * [エフェクト](pages/カスタムアイテム/エフェクト.md)
     * [例集](pages/カスタムアイテム/例集.md)
+* [カスタムNPC](pages/カスタムNPC/index.md)
 * [カスタムゴッド](pages/カスタムゴッド/index.md)
+* [カスタムテキスト](pages/カスタムテキスト/index.md)
