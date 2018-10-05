@@ -4,8 +4,10 @@ window.downloadSJIS = (path) => {
     const xhr = new XMLHttpRequest();
     xhr.open('GET', path, true);
     xhr.onload = () => {
-        // TODO: sjis & CRLFに変換
-        const blob = new Blob([ xhr.responseText ], { 'type' : 'text/plain' });
+        const stringArray = Encoding.stringToCode(xhr.response);
+        const sjisArray = Encoding.convert(stringArray, 'shift_jis');
+        const buffer = new Uint8Array(sjisArray);
+        const blob = new Blob([ buffer ], { 'type' : 'text/plain' });
 
         if (window.navigator.msSaveBlob) {
             // msSaveOrOpenBlobの場合はファイルを保存せずに開ける
