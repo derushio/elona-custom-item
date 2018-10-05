@@ -49,26 +49,6 @@ default
 default
 %END
 
-%txtanata,JP
-default
-%END
-
-%txtiyayo,JP
-default
-%END
-
-%txtnakanaka,JP
-default
-%END
-
-%txtikuyo,JP
-default
-%END
-
-%txtkiyameru,JP
-default
-%END
-
 %txtkuyasii,JP
 default
 %END
@@ -236,12 +216,9 @@ default
 default
 %END
 
-%txtyanwari,JP
-default
-%END
-
 // 訓練所に行こうとして訓練費用がなかったとき
 // 毎回ではなく1/5程度の確率で喋ります
+// `{snpc}: 自分`
 %txtkunren,JP
 default
 %END
@@ -252,12 +229,9 @@ default
 
 // 瀕死のとき
 // そのキャラ基準で10ターンに1回喋ります
+// `{snpc}: 自分`
 %txthinsi,JP
 default
-default
-%END
-
-%txtkodukuri,JP
 default
 %END
 
@@ -310,6 +284,51 @@ default
 // 婚約を申し込まれたとき
 // `{npc}: 自分`, `{snpc}: 相手`
 %txtmarriage,JP
+default
+%END
+
+// 婚約を断るとき
+// ??? `{snpc}: 自分`, `{npc}: 相手`
+%txtyanwari,JP
+default
+%END
+
+// 遺伝子を残すとき
+// ??? `{snpc}: 自分`, `{npc}: 相手`
+%txtanata,JP
+default
+%END
+
+// 遺伝子を残すのを断るとき
+// ??? `{snpc}: 自分`, `{npc}: 相手`
+%txtiyayo,JP
+default
+%END
+
+// 子供を作るとき
+// ??? `{snpc}: 自分`, `{npc}: 相手`
+%txtkodukuri,JP
+default
+%END
+
+// 気持ちいいことを受けるとき
+// デフォだと「なかなかの身体つきだ、買った」みたいなやつ
+// `{npc}: 自分`, `{snpc}: 相手`
+%txtnakanaka,JP
+default
+%END
+
+// 気持ちいいことを受けるとき2
+// デフォだと上の直後の「いくよ！」みたいなやつ
+// ??? `{npc}: 自分`, `{snpc}: 相手`
+%txtikuyo,JP
+default
+%END
+
+// 気持ちいいことをするで「やめる」を選んだとき
+// デフォだと「冷やかしか？」みたいなやつ
+// ??? `{npc}: 自分`, `{snpc}: 相手`
+%txtkiyameru,JP
 default
 %END
 
