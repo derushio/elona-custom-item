@@ -1,214 +1,276 @@
 %txtCalm,JP
 default
+%END
 
 %txtAggro,JP
 default
+%END
 
 %txtDead,JP
 default
+%END
 
 %txtKilled,JP
 default
+%END
 
 %txtWelcome,JP
 default
+%END
 
 %txtDialog,JP
 default
+%END
 
 %txtabuse,JP
 default
+%END
 
 %txtmarriage,JP
 default
+%END
 
 %txtanata,JP
 default
+%END
 
 %txtiyayo,JP
 default
+%END
 
 %txtnakanaka,JP
 default
+%END
 
 %txtikuyo,JP
 default
+%END
 
 %txtkiyameru,JP
 default
+%END
 
 %txtkuyasii,JP
 default
+%END
 
 %txtjigo,JP
 default
+%END
 %txtnoru,JP
 default
+%END
 
 %txtoriru,JP
 default
+%END
 
 %txtbiyaku,JP
 default
+%END
 
 %txttiti,JP
 default
+%END
 
 %txtsaite,JP
 default
+%END
 
 %txtsand,JP
 default
+%END
 
 %txtnikorose,JP
 default
+%END
 
 %txtkya,JP
 default
+%END
 
 %txttyohazusu,JP
 default
+%END
 
 %txtsibaru,JP
 default
+%END
 
 %txthodoku,JP
 default
+%END
 
 %txtturusu,JP
 default
+%END
 
 %txtsorosu,JP
 default
+%END
 
 %txtsnaguru,JP
 default
+%END
 
 %txtomiyage,JP
 default
+%END
 
 %txtyubikubi,JP
 default
+%END
 
 %txttoriage,JP
 default
+%END
 
 %txtpbou,JP
 default
+%END
 
 %txtexthank,JP
 default
+%END
 
 %txtexhiya,JP
 default
+%END
 
 %txtgoei,JP
 default
+%END
 
 %txtyatou,JP
 default
+%END
 
 %txthihiya,JP
 default
+%END
 
 %txtumaku,JP
 default
+%END
 
 %txttikara,JP
 default
+%END
 
 %txt0free,JP
 default
+%END
 
 %txtokoto,JP
 default
+%END
 
 %txtsibui,JP
 default
+%END
 
 %txtnamaniku,JP
 default
+%END
 
 %txtkona,JP
 default
+%END
 
 %txtnamamen,JP
 default
+%END
 
 %txtheibon,JP
 default
+%END
 
 %txt1_2,JP
 default
+%END
 
 %txt3_4,JP
 default
+%END
 
 %txt5_6,JP
 default
+%END
 
 %txt7_8,JP
 default
+%END
 
 %txt9saiko,JP
 default
+%END
 
 %txtkaradake,JP
 default
+%END
 
 %txtyanwari,JP
 default
+%END
 
 %txtkunren,JP
 default
+%END
 
 %txtonaka,JP
 default
+%END
 
 %txthinsi,JP
 default
+%END
 
 %txtkodukuri,JP
 default
+%END
 
 %txtlayhand,JP
 default
+%END
 
 %txtakita,JP
 default
+%END
 
 %txturusai,JP
 default
+%END
 
 %txtthrowrock,JP
 default
+%END
 
 %txtbravo,JP
 default
+%END
 
 %txtbatou,JP
 default
+%END
 
 %txtparasite,JP
 default
+%END
 
 %txtumare,JP
 default
+%END
 
 %txttobidasi,JP
 default
+%END
 
 %txttoketa,JP
 default
+%END
 
 %txtsing,JP
 default
-
-%txtcast446,JP
-default
-
-%txtpornobook263,JP
-
-%txtpornobookdefault,JP
+%END
 
 %endTxt
