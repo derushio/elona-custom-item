@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "collapsible-menu": "^1.0.10",
     "gitbook-cli": "^2.3.2",
     "gitbook-plugin-include-csv": "^0.3.0",
     "gitbook-plugin-page-toc": "git+https://github.com/derushio/gitbook-plugin-page-toc.git"
