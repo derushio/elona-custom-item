@@ -16,6 +16,7 @@ window.downloadSJIS = (path) => {
         } else {
             const url = window.URL.createObjectURL(blob);
             var download = document.createElement('a');
+            download.style.display = 'none';
             document.body.appendChild(download);
             download.href = url;
             download.download = filename;
