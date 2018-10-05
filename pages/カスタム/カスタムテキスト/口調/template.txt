@@ -49,14 +49,6 @@ default
 default
 %END
 
-%txtkuyasii,JP
-default
-%END
-
-%txtjigo,JP
-default
-%END
-
 // 乗馬されるとき
 // `{nnpc}: 自分`, `{nsnpc}: 相手`
 %txtnoru,JP
@@ -329,6 +321,18 @@ default
 // デフォだと「冷やかしか？」みたいなやつ
 // ??? `{npc}: 自分`, `{snpc}: 相手`
 %txtkiyameru,JP
+default
+%END
+
+// 気持ちいいことをしている最中のとき
+// `{snpc}: 自分`, `{npc}: 相手`
+%txtkuyasii,JP
+default
+%END
+
+// 気持ちいいことの事後
+// `{npc}: 自分`, `{snpc}: 相手`
+%txtjigo,JP
 default
 %END
 
