@@ -4,7 +4,8 @@ window.downloadSJIS = (path) => {
     const xhr = new XMLHttpRequest();
     xhr.open('GET', path, true);
     xhr.onload = () => {
-        const stringArray = Encoding.stringToCode(xhr.response);
+        const crlf = xhr.response.replace(/\n/g, '\r\n');
+        const stringArray = Encoding.stringToCode(crlf);
         const sjisArray = Encoding.convert(stringArray, 'shift_jis');
         const buffer = new Uint8Array(sjisArray);
         const blob = new Blob([ buffer ], { 'type' : 'text/plain' });
