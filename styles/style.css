@@ -1,3 +1,11 @@
 .page-toc {
     float: none;
 }
+
+button {
+    padding: 1rem 3rem;
+    background-color: white;
+    border: 1px solid #E7E7E7;
+    border-radius: 0.75rem;
+    letter-spacing: 0.1em;
+}
