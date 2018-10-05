@@ -184,30 +184,6 @@ default
 default
 %END
 
-%txt1_2,JP
-default
-%END
-
-%txt3_4,JP
-default
-%END
-
-%txt5_6,JP
-default
-%END
-
-%txt7_8,JP
-default
-%END
-
-%txt9saiko,JP
-default
-%END
-
-%txtkaradake,JP
-default
-%END
-
 // 訓練所に行こうとして訓練費用がなかったとき
 // 毎回ではなく1/5程度の確率で喋ります
 // `{snpc}: 自分`
@@ -333,6 +309,12 @@ default
 // 気持ちいいことの事後
 // `{npc}: 自分`, `{snpc}: 相手`
 %txtjigo,JP
+default
+%END
+
+// 気持ちいいことが中断されたとき
+// ??? `{snpc}: 自分`, `{npc}: 相手`
+%txtkaradake,JP
 default
 %END
 
