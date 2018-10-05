@@ -18,5 +18,6 @@
         * [> 資料](pages/カスタム/カスタムゴッド/資料/index.md)
             * [oomSEST独自仕様](pages/カスタム/カスタムゴッド/資料/oomSEST独自仕様.md)
     * [> カスタムテキスト](pages/カスタム/カスタムテキスト/index.md)
+        * [口調](pages/カスタム/カスタムテキスト/口調.md)
         * [> 資料](pages/カスタム/カスタムテキスト/資料/index.md)
             * [oomSEST独自仕様](pages/カスタム/カスタムテキスト/資料/oomSEST独自仕様.md)
