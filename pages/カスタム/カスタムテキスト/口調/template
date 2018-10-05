@@ -1,12 +1,17 @@
+// 通常の待機状態のとき
 %txtCalm,JP
+default
+default
 default
 %END
 
 %txtAggro,JP
 default
+default
 %END
 
 %txtDead,JP
+default
 default
 %END
 
@@ -14,6 +19,7 @@ default
 default
 %END
 
+// 出迎えのとき
 %txtWelcome,JP
 default
 %END
@@ -23,6 +29,8 @@ default
 %END
 
 %txtabuse,JP
+default
+default
 default
 %END
 
@@ -222,6 +230,7 @@ default
 %END
 
 %txthinsi,JP
+default
 default
 %END
 
