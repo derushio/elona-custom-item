@@ -11,5 +11,11 @@
         * [oomSEST独自仕様](pages/カスタムアイテム/資料/oomSEST独自仕様.md)
         * [例集](pages/カスタムアイテム/資料/例集.md)
 * [カスタムNPC](pages/カスタムNPC/index.md)
+    * 資料
+        * [oomSEST独自仕様](pages/カスタムNPC/資料/oomSEST独自仕様.md)
 * [カスタムゴッド](pages/カスタムゴッド/index.md)
+    * 資料
+        * [oomSEST独自仕様](pages/カスタムゴッド/資料/oomSEST独自仕様.md)
 * [カスタムテキスト](pages/カスタムテキスト/index.md)
+    * 資料
+        * [oomSEST独自仕様](pages/カスタムテキスト/資料/oomSEST独自仕様.md)
