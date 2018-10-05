@@ -8,7 +8,7 @@ window.downloadSJIS = (path) => {
         const stringArray = Encoding.stringToCode(crlf);
         const sjisArray = Encoding.convert(stringArray, 'shift_jis');
         const buffer = new Uint8Array(sjisArray);
-        const blob = new Blob([ buffer ], { 'type' : 'text/plain' });
+        const blob = new Blob([ buffer ], { 'type' : 'text/plain;charset=shift_jis;' });
 
         if (window.navigator.msSaveBlob) {
             // msSaveOrOpenBlobの場合はファイルを保存せずに開ける
