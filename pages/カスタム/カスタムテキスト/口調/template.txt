@@ -1,30 +1,44 @@
-// `{snpc}: 自分` `{npc}: ターゲット`
+// --------------- 通常反応 ---------------
+
+// 共通変数
+// `{player}: プレイヤー`
+
 // 通常の待機状態のとき
+// `{snpc}: 自分`
 %txtCalm,JP
 default
 default
 default
 %END
 
+// 交戦するとき
+// `{snpc}: 自分`, `{npc}: 相手`
 %txtAggro,JP
 default
 default
 %END
 
+// 殺されたとき
+// `{snpc}: 相手`, `{npc}: 自分`
 %txtDead,JP
 default
 default
 %END
 
+// 殺したとき
+// `{snpc}: 自分`, `{npc}: 相手`
 %txtKilled,JP
 default
 %END
 
 // 出迎えのとき
+// `{snpc}: 自分`
 %txtWelcome,JP
 default
 %END
 
+// 話しかけたとき
+// `{snpc}: 自分`, `{npc}: 相手`
 %txtDialog,JP
 default
 %END
@@ -32,10 +46,6 @@ default
 %txtabuse,JP
 default
 default
-default
-%END
-
-%txtmarriage,JP
 default
 %END
 
@@ -66,10 +76,15 @@ default
 %txtjigo,JP
 default
 %END
+
+// 乗馬されるとき
+// `{nnpc}: 自分`, `{nsnpc}: 相手`
 %txtnoru,JP
 default
 %END
 
+// 乗馬状態を解除されるとき
+// `{nnpc}: 自分`, `{nsnpc}: 相手`
 %txtoriru,JP
 default
 %END
@@ -90,6 +105,9 @@ default
 default
 %END
 
+// 気が狂っているとき
+// 連続して気持ちいいことをする場合、ここのテキストが混じります
+// `{npc}: 自分`
 %txtnikorose,JP
 default
 %END
@@ -222,6 +240,8 @@ default
 default
 %END
 
+// 訓練所に行こうとして訓練費用がなかったとき
+// 毎回ではなく1/5程度の確率で喋ります
 %txtkunren,JP
 default
 %END
@@ -230,6 +250,8 @@ default
 default
 %END
 
+// 瀕死のとき
+// そのキャラ基準で10ターンに1回喋ります
 %txthinsi,JP
 default
 default
@@ -280,6 +302,14 @@ default
 %END
 
 %txtsing,JP
+default
+%END
+
+// --------------- 干渉(i)に対する反応 ---------------
+
+// 婚約を申し込まれたとき
+// `{npc}: 自分`, `{snpc}: 相手`
+%txtmarriage,JP
 default
 %END
 
