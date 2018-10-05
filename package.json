@@ -10,8 +10,11 @@
   "license": "ISC",
   "dependencies": {
     "collapsible-menu": "^1.0.10",
+    "encoding-japanese": "^1.0.29",
     "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-include-codeblock": "^3.2.2",
     "gitbook-plugin-include-csv": "^0.3.0",
-    "gitbook-plugin-page-toc": "git+https://github.com/derushio/gitbook-plugin-page-toc.git"
+    "gitbook-plugin-page-toc": "git+https://github.com/derushio/gitbook-plugin-page-toc.git",
+    "gitbook-plugin-scripts": "^1.0.2"
   }
 }
