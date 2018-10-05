@@ -3,6 +3,7 @@
     "pluginsConfig": {
         "scripts": {
             "files": [
+                "node_modules/encoding-japanese/encoding.min.js",
                 "scripts/script.js"
             ]
         },
