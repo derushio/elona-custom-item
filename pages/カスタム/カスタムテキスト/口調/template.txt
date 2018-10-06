@@ -51,18 +51,6 @@ default
 default
 %END
 
-// 乗馬されるとき
-// `{npc}: 自分`, `{snpc}: 相手`
-%txtnoru,JP
-default
-%END
-
-// 乗馬状態を解除されるとき
-// `{npc}: 自分`, `{snpc}: 相手`
-%txtoriru,JP
-default
-%END
-
 // 媚薬を盛られたとき
 // ??? `{npc}: 自分`, `{snpc}: 相手`
 %txtbiyaku,JP
@@ -401,6 +389,188 @@ default
 // 罵倒
 // ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtbatou,JP
+default
+%END
+
+// --------------- oomSEST ---------------
+
+// マテリアル受取時のセリフ
+%txtMaterial,JP
+default
+%END
+
+// 朝食イベント発生時のセリフ
+%txtBfast,JP
+default
+%END
+
+// 添い寝イベント発生時のセリフ
+%txtNight,JP
+default
+%END
+
+// 罵倒技能時のセリフ・攻め寄りの状態で鞭で叩いた時のセリフ
+%txtInsult,JP
+default
+%END
+
+// 鞭で叩いてもらうようにねだった時のセリフ
+%txtInsult2,JP
+default
+%END
+
+// 鞭でアイテム拾い禁止、拾い食い禁止した時のセリフ
+%txtDiscipline,JP
+default
+%END
+
+// 叩き慣れした状態で鞭で叩いた時のセリフ
+%txtDiscipline2,JP
+default
+%END
+
+// アイテム拾い禁止解除、拾い食い禁止解除時のセリフ
+%txtDisciplineOff,JP
+default
+%END
+
+// 拾い食い禁止状態で食事を与えた時のセリフ
+%txtDisciplineEat,JP
+default
+%END
+
+// 「一緒に食事する」時のセリフ
+%txtMeal,JP
+default
+%END
+
+// 味方がチャージ技能を発動した時のセリフ
+%txtCharge,JP
+default
+%END
+
+// 本人がチャージ技能を発動した時のセリフ
+%txtChargeS,JP
+default
+%END
+
+// 本人がチャージ効果の乗った攻撃をする時のセリフ
+%txtChargeA,JP
+default
+%END
+
+// 味方が魂のシンクロ技能を発動した時のセリフ
+%txtKizuna,JP
+default
+%END
+
+// ゲージ技を発動する時のセリフ
+%txtSpecial,JP
+default
+%END
+
+// 口づけされた時のセリフ
+%txtKiss,JP
+default
+%END
+
+// ２月にチョコをもらった時のセリフ
+%txtChoco,JP
+default
+%END
+
+// 魂の友以上の友好度でＰＣから愛撫の手を受けた時のセリフ
+%txtNade,JP
+default
+%END
+
+// 魂の友以上の友好度でＰＣからスクイーズを受けた時のセリフ
+%txtHug,JP
+default
+%END
+
+// ファノーン技能に抵抗できずメロメロになってる時のセリフ
+%txtFawnOn,JP
+default
+%END
+
+// 強制的に添い寝させられて怒っている時のセリフ
+%txtMidNight,JP
+default
+%END
+
+// 乗馬解除（ＰＣが乗っている場合）時のセリフ
+%txtRideOff,JP
+default
+%END
+
+// 乗馬解除（ＰＣが乗られている場合）時のセリフ
+%txtRideOffPC,JP
+default
+%END
+
+// 乗馬開始（ＰＣが乗る場合）時のセリフ
+%txtRideOn,JP
+default
+%END
+
+// 乗馬開始（ＰＣが乗られる場合）時のセリフ
+%txtRideOnPC,JP
+default
+%END
+
+// 添い寝時に眠気が限界に来た時のセリフ
+%txtLimit,JP
+default
+%END
+
+// 多重詠唱魔法に参加する時のセリフ
+%txtMultiple,JP
+default
+%END
+
+// 友好度：親友以上または主従度：従順以上でＰＣに吸血される時のセリフ
+%txtDrain,JP
+default
+%END
+
+// 夜なべして防具作った時のセリフ
+%txtCreate,JP
+default
+%END
+
+// 添い寝時の専用行動選択肢　変換タグ無効
+%txtEXAct,JP
+default
+%END
+
+// 上記行動を選択した時の反応
+%txtEXReact,JP
+default
+%END
+
+// evochat開始時のセリフ
+%txtDialogB,JP
+default
+%END
+
+// evochat時、困らせた場合のセリフ
+%txtDialogE,JP
+default
+%END
+
+// evochat時、喜ばせた場合のセリフ
+%txtDialogF,JP
+default
+%END
+
+// evochat時、機嫌が最大の場合のセリフ
+%txtDialogH,JP
+default
+%END
+
+// 変異殻使用時のセリフ
+%txtShift,JP
 default
 %END
 
