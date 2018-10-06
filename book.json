@@ -1,5 +1,5 @@
 {
-    "plugins": [ "scripts", "collapsible-menu", "page-toc", "include-codeblock", "include-csv" ],
+    "plugins": [ "-search", "scripts", "collapsible-menu", "page-toc", "include-codeblock", "include-csv" ],
     "pluginsConfig": {
         "scripts": {
             "files": [
