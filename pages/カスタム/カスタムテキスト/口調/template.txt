@@ -395,181 +395,217 @@ default
 // --------------- oomSEST ---------------
 
 // マテリアル受取時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtMaterial,JP
 default
 %END
 
 // 朝食イベント発生時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtBfast,JP
 default
 %END
 
 // 添い寝イベント発生時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtNight,JP
 default
 %END
 
 // 罵倒技能時のセリフ・攻め寄りの状態で鞭で叩いた時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtInsult,JP
 default
 %END
 
 // 鞭で叩いてもらうようにねだった時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtInsult2,JP
 default
 %END
 
 // 鞭でアイテム拾い禁止、拾い食い禁止した時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtDiscipline,JP
 default
 %END
 
 // 叩き慣れした状態で鞭で叩いた時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtDiscipline2,JP
 default
 %END
 
 // アイテム拾い禁止解除、拾い食い禁止解除時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtDisciplineOff,JP
 default
 %END
 
 // 拾い食い禁止状態で食事を与えた時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtDisciplineEat,JP
 default
 %END
 
 // 「一緒に食事する」時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtMeal,JP
 default
 %END
 
 // 味方がチャージ技能を発動した時のセリフ
+// ??? `{npc}: 自分`, `{snpc}: 相手`
 %txtCharge,JP
 default
 %END
 
 // 本人がチャージ技能を発動した時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtChargeS,JP
 default
 %END
 
 // 本人がチャージ効果の乗った攻撃をする時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtChargeA,JP
 default
 %END
 
 // 味方が魂のシンクロ技能を発動した時のセリフ
+// ??? `{npc}: 自分`, `{snpc}: 相手`
 %txtKizuna,JP
 default
 %END
 
 // ゲージ技を発動する時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtSpecial,JP
 default
 %END
 
 // 口づけされた時のセリフ
+// ??? `{npc}: 自分`, `{snpc}: 相手`
 %txtKiss,JP
 default
 %END
 
 // ２月にチョコをもらった時のセリフ
+// ??? `{npc}: 自分`, `{snpc}: 相手`
 %txtChoco,JP
 default
 %END
 
 // 魂の友以上の友好度でＰＣから愛撫の手を受けた時のセリフ
+// ??? `{npc}: 自分`, `{snpc}: 相手`
 %txtNade,JP
 default
 %END
 
 // 魂の友以上の友好度でＰＣからスクイーズを受けた時のセリフ
+// ??? `{npc}: 自分`, `{snpc}: 相手`
 %txtHug,JP
 default
 %END
 
 // ファノーン技能に抵抗できずメロメロになってる時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtFawnOn,JP
 default
 %END
 
 // 強制的に添い寝させられて怒っている時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtMidNight,JP
 default
 %END
 
 // 乗馬解除（ＰＣが乗っている場合）時のセリフ
+// ??? `{npc}: 自分`, `{snpc}: 相手`
 %txtRideOff,JP
 default
 %END
 
 // 乗馬解除（ＰＣが乗られている場合）時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtRideOffPC,JP
 default
 %END
 
 // 乗馬開始（ＰＣが乗る場合）時のセリフ
+// ??? `{npc}: 自分`, `{snpc}: 相手`
 %txtRideOn,JP
 default
 %END
 
 // 乗馬開始（ＰＣが乗られる場合）時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtRideOnPC,JP
 default
 %END
 
 // 添い寝時に眠気が限界に来た時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtLimit,JP
 default
 %END
 
 // 多重詠唱魔法に参加する時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtMultiple,JP
 default
 %END
 
 // 友好度：親友以上または主従度：従順以上でＰＣに吸血される時のセリフ
+// ??? `{npc}: 自分`, `{snpc}: 相手`
 %txtDrain,JP
 default
 %END
 
 // 夜なべして防具作った時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtCreate,JP
 default
 %END
 
 // 添い寝時の専用行動選択肢　変換タグ無効
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtEXAct,JP
 default
 %END
 
 // 上記行動を選択した時の反応
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtEXReact,JP
 default
 %END
 
 // evochat開始時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtDialogB,JP
 default
 %END
 
 // evochat時、困らせた場合のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtDialogE,JP
 default
 %END
 
 // evochat時、喜ばせた場合のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtDialogF,JP
 default
 %END
 
 // evochat時、機嫌が最大の場合のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtDialogH,JP
 default
 %END
 
 // 変異殻使用時のセリフ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtShift,JP
 default
 %END
