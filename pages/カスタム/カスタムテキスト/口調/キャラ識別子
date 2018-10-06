@@ -1,8 +1,0 @@
-# キャラ識別子
-## キャラ識別子リスト
-{% includeCsv src="./character_id.csv" %}{% endincludeCsv %}
-
----
-
-## 参考資料
-* https://wikiwiki.jp/elona/%3A解析/リスト/キャラリスト
