@@ -3,10 +3,9 @@
 }
 
 button {
-    padding: 1rem 3rem;
+    padding: 0 3rem; line-height: 2.25em;
     background-color: white;
-    border: 1px solid #E7E7E7;
-    border-radius: 0.75rem;
+    border: 1px solid #E7E7E7; border-radius: 0.75rem;
     letter-spacing: 0.1em;
 }
 
@@ -16,10 +15,17 @@ button {
 
 .bg-gray {
     padding: 1rem 2rem;
-    border: 1px solid #E7E7E7;
-    border-radius: 0.5rem;
+    border: 1px solid #E7E7E7; border-radius: 0.5rem;
 }
 
 .nl {
     margin-bottom: 1rem;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button:not(:first-child) {
+    margin-left: 1rem;
 }
