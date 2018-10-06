@@ -14,3 +14,6 @@
 * Wikiのようにオンライン上で編集できるコンテンツではございません
 * 編集を希望の方は以下のGitHubリポジトリへPullRequestを行ってください
     * [https://github.com/derushio/elona-docs](https://github.com/derushio/elona-docs)
+
+### 情報提供・ご用があれば
+* https://docs.google.com/forms/d/1pS_1Xcy9Ox41aEcupSTbjz3RkBO2cZaLe59vdlxf0rk/edit
