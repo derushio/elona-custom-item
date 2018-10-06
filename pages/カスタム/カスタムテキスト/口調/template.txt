@@ -43,6 +43,8 @@ default
 default
 %END
 
+// 罵倒するとき
+// `{snpc}: 自分`, `{npc}: 相手`
 %txtabuse,JP
 default
 default
@@ -50,29 +52,37 @@ default
 %END
 
 // 乗馬されるとき
-// `{nnpc}: 自分`, `{nsnpc}: 相手`
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtnoru,JP
 default
 %END
 
 // 乗馬状態を解除されるとき
-// `{nnpc}: 自分`, `{nsnpc}: 相手`
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtoriru,JP
 default
 %END
 
+// 媚薬を盛られたとき
+// ??? `{npc}: 自分`, `{snpc}: 相手`
 %txtbiyaku,JP
 default
 %END
 
+// 乳を絞られたとき
+// ??? `{npc}: 自分`, `{snpc}: 相手`
 %txttiti,JP
 default
 %END
 
+// ??? サイテー
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtsaite,JP
 default
 %END
 
+// ???
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtsand,JP
 default
 %END
@@ -84,102 +94,152 @@ default
 default
 %END
 
+// キャー 聴診器を当てられたとき
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtkya,JP
 default
 %END
 
+// ???
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txttyohazusu,JP
 default
 %END
 
+// 縛る
+// ??? `{npc}: 自分`, `{snpc}: 相手`
 %txtsibaru,JP
 default
 %END
 
+// 解く
+// ??? `{npc}: 自分`, `{snpc}: 相手`
 %txthodoku,JP
 default
 %END
 
+// 吊るす
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtturusu,JP
 default
 %END
 
+// ??? 下ろす
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtsorosu,JP
 default
 %END
 
+// ??? 殴る
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtsnaguru,JP
 default
 %END
 
+// ??? おみやげ
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtomiyage,JP
 default
 %END
 
+// ??? 指輪首輪あげる
+// ??? `{npc}: 自分`, `{snpc}: 相手`
 %txtyubikubi,JP
 default
 %END
 
+// ??? 指輪首輪とりあげる
+// ??? `{npc}: 自分`, `{snpc}: 相手`
 %txttoriage,JP
 default
 %END
 
+// ???
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtpbou,JP
 default
 %END
 
+// ??? ありがとう
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtexthank,JP
 default
 %END
 
+// ???
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtexhiya,JP
 default
 %END
 
+// ??? 護衛
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtgoei,JP
 default
 %END
 
+// ??? 野党
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtyatou,JP
 default
 %END
 
+// ???
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txthihiya,JP
 default
 %END
 
+// ??? 埋まる
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtumaku,JP
 default
 %END
 
+// ??? 力
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txttikara,JP
 default
 %END
 
+// ???
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txt0free,JP
 default
 %END
 
+// ???
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtokoto,JP
 default
 %END
 
+// ???
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtsibui,JP
 default
 %END
 
+// ??? 生肉 (いただきマンモス的な？)
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtnamaniku,JP
 default
 %END
 
+// ??? 粉
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtkona,JP
 default
 %END
 
+// ??? 生麺
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtnamamen,JP
 default
 %END
 
+// ??? 平凡
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtheibon,JP
 default
 %END
@@ -191,6 +251,8 @@ default
 default
 %END
 
+// ??? おなか
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtonaka,JP
 default
 %END
@@ -203,46 +265,38 @@ default
 default
 %END
 
+// ???
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtlayhand,JP
 default
 %END
 
-%txtakita,JP
-default
-%END
-
-%txturusai,JP
-default
-%END
-
-%txtthrowrock,JP
-default
-%END
-
-%txtbravo,JP
-default
-%END
-
-%txtbatou,JP
-default
-%END
-
+// 寄生されている
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtparasite,JP
 default
 %END
 
+// 生まれそう
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtumare,JP
 default
 %END
 
+// ??? お腹からとびだした
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txttobidasi,JP
 default
 %END
 
+// ??? とけた
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txttoketa,JP
 default
 %END
 
+// ??? 歌う
+// ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtsing,JP
 default
 %END
@@ -315,6 +369,38 @@ default
 // 気持ちいいことが中断されたとき
 // ??? `{snpc}: 自分`, `{npc}: 相手`
 %txtkaradake,JP
+default
+%END
+
+// --------------- 演奏に対する反応 ---------------
+
+// 飽きた
+// ??? `{snpc}: 自分`, `{npc}: 相手`
+%txtakita,JP
+default
+%END
+
+// うるさい
+// ??? `{snpc}: 自分`, `{npc}: 相手`
+%txturusai,JP
+default
+%END
+
+// 投石
+// ??? `{snpc}: 自分`, `{npc}: 相手`
+%txtthrowrock,JP
+default
+%END
+
+// ブラボー
+// ??? `{snpc}: 自分`, `{npc}: 相手`
+%txtbravo,JP
+default
+%END
+
+// 罵倒
+// ??? `{snpc}: 自分`, `{npc}: 相手`
+%txtbatou,JP
 default
 %END
 
