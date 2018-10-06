@@ -20,5 +20,5 @@
 
 ---
 
-## 引用元
+## 参考元
 * http://elona-omakefamily-wiki.com/?oomSE/readme#m0d5c43a

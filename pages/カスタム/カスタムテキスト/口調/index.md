@@ -4,5 +4,5 @@
 
 ---
 
-## 引用元
+## 参考元
 * https://wikiwiki.jp/elonatxt/テキスト作成と利用の手引き（FAQ）
