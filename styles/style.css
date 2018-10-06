@@ -13,3 +13,13 @@ button {
 .page-inner {
     max-width: 1100px;
 }
+
+.bg-gray {
+    padding: 1rem 2rem;
+    border: 1px solid #E7E7E7;
+    border-radius: 0.5rem;
+}
+
+.nl {
+    margin-bottom: 1rem;
+}
