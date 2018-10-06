@@ -9,3 +9,7 @@ button {
     border-radius: 0.75rem;
     letter-spacing: 0.1em;
 }
+
+.page-inner {
+    max-width: 1100px;
+}
