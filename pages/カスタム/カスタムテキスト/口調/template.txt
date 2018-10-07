@@ -52,80 +52,80 @@ default
 %END
 
 // 媚薬を盛られたとき
-// ??? `{npc}: 自分`, `{snpc}: 相手`
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtbiyaku,JP
 default
 %END
 
 // 乳を絞られたとき
-// ??? `{npc}: 自分`, `{snpc}: 相手`
+// `{npc}: 自分`, `{snpc}: 相手`
 %txttiti,JP
 default
 %END
 
-// ??? サイテー
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// 媚薬を渡されて叩き割るとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtsaite,JP
 default
 %END
 
-// ???
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// サンドバッグに吊るされてるとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtsand,JP
 default
 %END
 
 // 気が狂っているとき
 // 連続して気持ちいいことをする場合、ここのテキストが混じります
-// `{npc}: 自分`
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtnikorose,JP
 default
 %END
 
 // キャー 聴診器を当てられたとき
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtkya,JP
 default
 %END
 
-// ???
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// 聴診器を外したとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txttyohazusu,JP
 default
 %END
 
-// 縛る
-// ??? `{npc}: 自分`, `{snpc}: 相手`
+// 紐で縛ったとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtsibaru,JP
 default
 %END
 
-// 解く
-// ??? `{npc}: 自分`, `{snpc}: 相手`
+// 紐を解いたとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txthodoku,JP
 default
 %END
 
-// 吊るす
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// サンドバッグに吊るされたとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtturusu,JP
 default
 %END
 
-// ??? 下ろす
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// サンドバッグから降ろされたとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtsorosu,JP
 default
 %END
 
-// ??? 殴る
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// サンドバッグに吊るされて殴られているとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtsnaguru,JP
 default
 %END
 
-// ??? おみやげ
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// おみやげを渡されたとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtomiyage,JP
 default
 %END

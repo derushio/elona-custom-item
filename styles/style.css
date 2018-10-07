@@ -9,6 +9,16 @@ button {
     letter-spacing: 0.1em;
 }
 
+h5::before {
+    content: '>';
+    margin-right: 0.5em;
+}
+
+h6::before {
+    content: '>>';
+    margin-right: 0.5em;
+}
+
 .page-inner {
     max-width: 1100px;
 }
