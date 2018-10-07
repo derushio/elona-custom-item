@@ -130,104 +130,110 @@ default
 default
 %END
 
-// ??? 指輪首輪あげる
-// ??? `{npc}: 自分`, `{snpc}: 相手`
+// 結婚指輪や結婚首輪を渡されたとき
+// `顔を赤らめた` の後
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtyubikubi,JP
 default
 %END
 
-// ??? 指輪首輪とりあげる
-// ??? `{npc}: 自分`, `{snpc}: 相手`
+// 結婚指輪または結婚首輪首輪を取り上げようとしたとき
+// `飲み込んだ` の後
+// `{npc}: 自分`, `{snpc}: 相手`
 %txttoriage,JP
 default
 %END
 
-// ???
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// 冒険者にした後に話しかけたとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtpbou,JP
 default
 %END
 
-// ??? ありがとう
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// 冒険者にした後アイテム交換をしたとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtexthank,JP
 default
 %END
 
-// ???
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// ひやかし
+// 冒険者にした後にアイテム交換を持ちかけたときに見合うアイテムを持っていないもしくは交換をやめたとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtexhiya,JP
 default
 %END
 
-// ??? 護衛
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// 冒険者にした後に護衛の依頼を持ちかけたとき
+// `{npc}: 自分`, `{snpc}: 相手`
+// `{calcadv}: 護衛費用` gpやgoldを後ろに置くときは半角スペースを間に入れるとそれっぽくなる
 %txtgoei,JP
 default
 %END
 
-// ??? 野党
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// 冒険者にした後に護衛を依頼したとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtyatou,JP
 default
 %END
 
-// ???
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// 冒険者にした後に護衛の依頼を持ちかけてやめたとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txthihiya,JP
 default
 %END
 
-// ??? 埋まる
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// 冒険者にした後に仲間に誘い、承諾されたとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtumaku,JP
 default
 %END
 
-// ??? 力
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// 冒険者にした後に仲間に誘ったが力の差がありすぎて断られたとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txttikara,JP
 default
 %END
 
-// ???
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// 冒険者にした後に仲間に誘ったがペット枠が空いてなくて断られたとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txt0free,JP
 default
 %END
 
-// ???
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// 冒険者にした後に仲間に誘ったが友好度が足りていないか、もしくは雇用回数が足りていなくて断わられたとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtokoto,JP
 default
 %END
 
-// ???
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// `腐った〜` を食べたとき
+// `{snpc}: 自分`
 %txtsibui,JP
 default
 %END
 
-// ??? 生肉 (いただきマンモス的な？)
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// `生肉` を食べたとき
+// `{snpc}: 自分`
 %txtnamaniku,JP
 default
 %END
 
-// ??? 粉
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// `生の小麦粉` を食べたとき
+// `{snpc}: 自分`
 %txtkona,JP
 default
 %END
 
-// ??? 生麺
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// `生麺` を食べたとき
+// `{snpc}: 自分`
 %txtnamamen,JP
 default
 %END
 
-// ??? 平凡
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// 生肉と小麦粉、生麺以外の未調理のものを食べたとき
+// PCが食べたときに「まずいわけではないが…」や「平凡な味だ。」となるもの
+// 主に生の果実や野菜や魚
+// `{snpc}: 自分`
 %txtheibon,JP
 default
 %END
@@ -239,8 +245,8 @@ default
 default
 %END
 
-// ??? おなか
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// 自動食事をしようとしたが手元に食べ物がなかったとき
+// `{snpc}: 自分`
 %txtonaka,JP
 default
 %END
@@ -253,38 +259,39 @@ default
 default
 %END
 
-// ???
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// レイハンドを使用したとき
+// `{snpc}: 自分`, `{npc}: 相手`
 %txtlayhand,JP
 default
 %END
 
-// 寄生されている
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// 寄生されたとき
+// `{npc}: 自分`, `{snpc}: 相手`
 %txtparasite,JP
 default
 %END
 
 // 生まれそう
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// デフォルトだと「なにかが産まれそうだよ！」となる
+// `{snpc}: 自分`
 %txtumare,JP
 default
 %END
 
-// ??? お腹からとびだした
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// 何かが腹を破って飛び出したとき
+// `{snpc}: 自分`
 %txttobidasi,JP
 default
 %END
 
-// ??? とけた
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// 毒薬などを飲んでエイリアンを溶かしたとき
+// `{snpc}: 自分`
 %txttoketa,JP
 default
 %END
 
-// ??? 歌う
-// ??? `{snpc}: 自分`, `{npc}: 相手`
+// PCの演奏に合わせて歌っているとき
+// `{snpc}: 自分`, `{npc}: 相手`
 %txtsing,JP
 default
 %END
